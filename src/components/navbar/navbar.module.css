@@ -1,0 +1,30 @@
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+.logout{
+    padding: 7px 9px;
+    border: none;
+    background-color: #316f50;
+    border-radius: 4px;
+    color:rgba(232, 231, 244, 0.942);
+    cursor: pointer
+    
+}
+.text{
+    font-weight: medium;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
