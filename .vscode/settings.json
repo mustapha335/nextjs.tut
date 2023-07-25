@@ -1,0 +1,11 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": true,
+    "prettier.singleAttributePerLine": true,
+    "prettier.singleQuote": true,
+    "prettier.withNodeModules": true,
+    "editor.formatOnSave": true
+}
