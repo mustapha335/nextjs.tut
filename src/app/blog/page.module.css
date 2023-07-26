@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+
+.image{
+  object-fit: cover;
+   border-radius: 10px;
+}
+
+.content {
+}
+
+.title{
+  margin-bottom: 10px;
+}
+
+.desc{
+  font-size: 18px;
+  color: #999;
+}
