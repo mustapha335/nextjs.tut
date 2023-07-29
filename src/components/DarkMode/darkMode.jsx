@@ -2,7 +2,7 @@
 
 import React, { useContext } from 'react'
 import styles from './darkmode.module.css'
-import { ThemeContext } from '../../../context/contextTheme'
+import { ThemeContext } from '../../app/context/contextTheme'
 const darkMode = () => {
   const { toggle, mode } = useContext(ThemeContext)
   return (

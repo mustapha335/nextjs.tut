@@ -1,8 +1,10 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
 import styles from './navbar.module.css'
 import { Comfortaa } from 'next/font/google'
 import DarkMode from '../DarkMode/darkMode'
+import { signOut, useSession } from 'next-auth/react'
 const Comfort = Comfortaa({ subsets: ['latin'], weight: '300' })
 
 const links = [
@@ -39,6 +41,7 @@ const links = [
 ]
 
 const Navbar = () => {
+  const session = useSession()
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
@@ -51,9 +54,11 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
-        <button className={styles.logout}>
-          <h3 className={styles.text}>logout</h3>
-        </button>
+        {session.status === 'authenticated' && (
+          <button onClick={signOut} className={styles.logout}>
+            <h3 className={styles.text}>logout</h3>
+          </button>
+        )}
       </div>
     </div>
   )
