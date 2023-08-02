@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
+import { Comfortaa } from 'next/font/google'
 
 const Portfolio = () => {
   return (
@@ -8,13 +9,16 @@ const Portfolio = () => {
       <h1 className={styles.selectedTitle}>Choose a gallery</h1>
       <div className={styles.items}>
         <Link href="/portfolio/illustrations" className={styles.item}>
-          <span className={styles.title}>Illustration</span>
-        </Link>
-        <Link href="/portfolio/websites" className={styles.item}>
           <span className={styles.title}>Websites</span>
         </Link>
+        <Link href="/portfolio/websites" className={styles.item}>
+          <span className={styles.title}>
+            Logo & <br />
+            Branding
+          </span>
+        </Link>
         <Link href="/portfolio/applications" className={styles.item}>
-          <span className={styles.title}>Application</span>
+          <span className={styles.title}>Graphics</span>
         </Link>
       </div>
     </div>

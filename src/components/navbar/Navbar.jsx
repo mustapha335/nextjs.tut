@@ -48,8 +48,8 @@ const Navbar = () => {
       <Link href="/" className={styles.logo}>
         <Image
           src="webpage logo.svg"
-          width={280}
-          height={280}
+          width={250}
+          height={250}
           className={styles.icon}
           alt="musty babs"
         />
