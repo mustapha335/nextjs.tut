@@ -5,6 +5,7 @@ import styles from './navbar.module.css'
 import { Comfortaa } from 'next/font/google'
 import DarkMode from '../DarkMode/darkMode'
 import { signOut, useSession } from 'next-auth/react'
+import Image from 'next/image'
 const Comfort = Comfortaa({ subsets: ['latin'], weight: '300' })
 
 const links = [
@@ -45,10 +46,17 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        <h1 className={Comfort.className}>Mustybabs</h1>
+        <Image
+          src="webpage logo.svg"
+          width={280}
+          height={280}
+          className={styles.icon}
+          alt="musty babs"
+        />
+        {/* <h1 className={Comfort.className}>Mustybabs</h1> */}
       </Link>
       <div className={styles.links}>
-        <DarkMode />
+        {/* <DarkMode /> */}
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>
             {link.title}

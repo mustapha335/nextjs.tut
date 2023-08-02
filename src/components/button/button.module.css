@@ -1,9 +1,17 @@
 .container {
   padding: 20px;
+  font-size: 20px;
   cursor: pointer;
-  background-color: #53c28b;
+  background-color: #C69C60;
   border: none;
   border-radius: 5px;
   width: max-content;
   color: white;
+transition: 1s ease;
+
+    
+}
+.container:hover{
+    background-color: #ead2b0;
+    color : rgb(83, 82, 82)
 }

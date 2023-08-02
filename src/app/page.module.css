@@ -30,7 +30,7 @@ gap:50px
 }
 .title{
 font-size: 72px;
-background: linear-gradient(to bottom ,#194c33,#bbb);
+background: linear-gradient(to bottom ,#C69C60,#bbb);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -43,7 +43,7 @@ background: linear-gradient(to bottom ,#194c33,#bbb);
 .button{
   padding: 20px;
   cursor: pointer;
-  background-color: #53c28b;
+  background-color: #C69C60;
   border: none;
   border-radius: 5px;
   width: max-content;
