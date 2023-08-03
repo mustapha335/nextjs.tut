@@ -17,39 +17,36 @@
 .item{
     border: 5px solid white;
     border-radius: 5px;
-    width: 300px;
+    width: 500px;
     height: 400px;
     position: relative;
     background-size: cover  !important;
-    transition: 1s;
-}
-.item:hover{
-    border: 5px solid #dd860bce;
+   
 }
 
+
 .item:nth-child(1){
-    background-image: url("/websites.jpg");
+    background-image: url("/websites.png");
+
 }
 .item:nth-child(2){
     background-image: url("/logo & branding.png");
 }
 .item:nth-child(3){
     background-image: url("/graphics.png");
-    object-fit: cover;
+    
 
 }
 .title{
     position: absolute;
-    color: #ba9969;
+    color: white;
     right:10px;
     bottom: 10px;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 3px;
-    transition: 1s;
+   transition: .5s ease-in-out;
 }
-
-.item:hover .title{
-    color: #dbbb8e
-    
+.title:hover{
+   color:#d9b98c
 }

@@ -11,7 +11,7 @@
 .imgContainer{
     flex:1;
    position: relative;    
-     height: 450px;
+     height: 550px;
 }
 
 .form{
@@ -39,10 +39,27 @@
     animation: move 3s infinite ease alternate;
 
 }
+.button {
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #C69C60;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+transition: 1s ease;
+
+    
+}
+.button:hover{
+    background-color: #ead2b0;
+    color : rgb(83, 82, 82)
+}
 
 @keyframes move {
      from{
-        transform: translateY(-15px);
+        transform: translateY(-20px);
         
      }
      to{

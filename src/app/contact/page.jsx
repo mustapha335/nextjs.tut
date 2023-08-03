@@ -1,7 +1,9 @@
+'use client'
+
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
-import Button from '@/components/button/Button'
+import { useState } from 'react'
 const Contact = () => {
   return (
     <div className={styles.container}>
@@ -9,23 +11,44 @@ const Contact = () => {
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image
-            src="/contact.png"
+            src="/contct.png"
             alt=""
             fill={true}
             className={styles.image}
           />
         </div>
-        <form action="" className={styles.form}>
-          <input type="text" placeholder="name" className={styles.input} />
-          <input type="email" placeholder="email" className={styles.input} />
+        <form
+          action="https://formspree.io/f/xaygqanw"
+          method="POST"
+          className={styles.form}
+        >
+          <input
+            type="text"
+            placeholder="name"
+            name="name"
+            className={styles.input}
+            required
+          />
+          <input
+            type="email"
+            placeholder="email"
+            name="email"
+            className={styles.input}
+            required
+          />
           <textarea
             className={styles.textArea}
             placeholder="Your Message"
             cols="30"
             rows="10"
+            name="message"
+            required
           ></textarea>
-
-          <Button url="/" text="send" />
+          <input className={styles.button} type="submit" value="send" />
+          {/* <Button
+            onclick="location.href='mailto:reezy77jay@gmail.com';"
+            text="send"
+          /> */}
         </form>
       </div>
     </div>

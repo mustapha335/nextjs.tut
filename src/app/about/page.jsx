@@ -7,22 +7,17 @@ const Page = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image
-          src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt=""
-          fill={true}
-          className={styles.img}
-        />
-        <div className={styles.imgText}>
+        <Image src="/about1.jpg" alt="" fill={true} className={styles.img} />
+        {/* <div className={styles.imgText}>
           <h1 className={styles.imgTitle}>Digital StoryTelling</h1>
           <h3 className={styles.imgDesc}>
             Handcrafting award winning digital experiences
           </h3>
-        </div>
+        </div> */}
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
-          <h1 className={styles.title}>Who are we?</h1>
+          <h1 className={styles.title}>Who am I?</h1>
           <p className={styles.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             quae dolor, optio voluptatibus magnam iure esse tempora beatae. A
@@ -40,7 +35,7 @@ const Page = () => {
         </div>
 
         <div className={styles.item}>
-          <h1 className={styles.title}>What We Do?</h1>
+          <h1 className={styles.title}>What I Do?</h1>
           <p className={styles.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             quae dolor, optio voluptatibus magnam iure esse tempora beatae, a
