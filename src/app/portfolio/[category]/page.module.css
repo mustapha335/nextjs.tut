@@ -1,5 +1,5 @@
 .catTitle{
-      color: #53c28b;
+      color: #dab278;
 }
 
 .item{
@@ -14,13 +14,18 @@
     flex-direction: row-reverse;
 }
 
+
+
 .imgContainer{
 flex: 1;
 height: 500px;
 position: relative;
+
 }
 .img{
     object-fit: cover;
+    border-radius: 20px;
+    
 }
 .content{
     flex:1;
