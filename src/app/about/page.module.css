@@ -1,5 +1,6 @@
 .container{
 margin-top: 20px;
+color:aliceblue
 }
 
 .imgContainer{
@@ -44,4 +45,34 @@ margin-top: 20px;
     font-size: 18px;
     font-weight: 300;
     text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .imgContainer{
+        display: none;
+    }
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        margin-bottom: -40px;
+    }
+    .container{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+.imgContainer{
+        display: none;
+    }
+     .textContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        margin-bottom: -40px;
+    }
+    .container{
+        margin-bottom: 50px;
+    }
 }

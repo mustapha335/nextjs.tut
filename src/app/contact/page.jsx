@@ -7,7 +7,7 @@ import { useState } from 'react'
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Let's Keep in touch</h1>
+      <h1 className={styles.title}>Let&apos;s Keep in touch</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image
@@ -45,10 +45,6 @@ const Contact = () => {
             required
           ></textarea>
           <input className={styles.button} type="submit" value="send" />
-          {/* <Button
-            onclick="location.href='mailto:reezy77jay@gmail.com';"
-            text="send"
-          /> */}
         </form>
       </div>
     </div>

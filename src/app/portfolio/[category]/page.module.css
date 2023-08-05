@@ -1,5 +1,6 @@
 .catTitle{
       color: #dab278;
+      margin-left: 20px;
 }
 
 .item{
@@ -33,6 +34,7 @@ position: relative;
     flex-direction: column;
     gap:20px;
     justify-content: center;
+    color:aliceblue
 
 }
 .title{
@@ -40,4 +42,10 @@ position: relative;
 }
 .desc{
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgContainer{
+        display: none;
+    }
 }

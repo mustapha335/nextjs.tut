@@ -38,6 +38,7 @@ background: linear-gradient(to bottom ,#C69C60,#bbb);
 .desc{
   font-size: 24px;
   font-weight: 300;
+  color:white
 }
 
 .button{
@@ -50,3 +51,27 @@ background: linear-gradient(to bottom ,#C69C60,#bbb);
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  .img{
+    display: none
+  }
+  .title{
+    width:30rem;
+font-size: 60px;
+background: linear-gradient(to bottom ,#C69C60,#bbb);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+}
+@media only screen and (max-width: 768px) {
+  .img{
+    display: none
+  }
+  .title{
+    width:30rem;
+font-size: 60px;
+background: linear-gradient(to bottom ,#C69C60,#bbb);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+}

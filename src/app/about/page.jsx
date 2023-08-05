@@ -8,12 +8,6 @@ const Page = () => {
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image src="/about1.jpg" alt="" fill={true} className={styles.img} />
-        {/* <div className={styles.imgText}>
-          <h1 className={styles.imgTitle}>Digital StoryTelling</h1>
-          <h3 className={styles.imgDesc}>
-            Handcrafting award winning digital experiences
-          </h3>
-        </div> */}
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
