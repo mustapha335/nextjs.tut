@@ -51,7 +51,24 @@ background: linear-gradient(to bottom ,#C69C60,#bbb);
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 500px) {
+  .img{
+    display: none
+  }
+  .title{
+ display: none;
+}
+.desc{
+width:80vw;
+font-size: 2.4rem;
+align-items: center;
+margin-bottom:50px ;
+}
+
+}
+@media only screen and (max-width: 900px) {
   .img{
     display: none
   }
@@ -63,12 +80,13 @@ background: linear-gradient(to bottom ,#C69C60,#bbb);
 -webkit-text-fill-color: transparent;
 }
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 1024px) {
   .img{
     display: none
   }
-  .title{
-    width:30rem;
+   .title{
+    width:50rem;
 font-size: 60px;
 background: linear-gradient(to bottom ,#C69C60,#bbb);
 -webkit-background-clip: text;

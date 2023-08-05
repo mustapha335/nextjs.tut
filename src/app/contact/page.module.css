@@ -85,15 +85,20 @@ transition: 1s ease;
   
 }
 .title{
-     margin-bottom: 50px;
+    font-size: 28px;
+     margin-bottom: 30px;
 }
 .imgContainer{
     display:none;
 }
+.input, .textArea{
+ 
+      width:90vw;
+}
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-device-width: 1024px) {
     .imgContainer{
     display:none;
 }
