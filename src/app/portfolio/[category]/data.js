@@ -19,7 +19,7 @@ export const items = {
     {
       id: 1,
       title: "Flex Gym",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      desc: "This app is designed to help users exercise by providing them with exercise data and videos to choose from and customise. It was created using React and utilises best practices to connect to an API and fetch data, as well as learning about hooks and using Material UI to create a visually appealing user interface. The app uses the exerciseDb API to fetch exercise data and the YouTube search and download API to download videos.",
      image: flexGym,
       url:"https://flex-gym.vercel.app/",
     },
@@ -27,14 +27,14 @@ export const items = {
     {
       id: 2,
       title: "Midnight",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      desc: "This is a web application for a restaurant’s landing page. It was constructed using React and CSS, incorporating React functional components and proper folder structure. Additionally, CSS was utilised for styling purposes. The objective of this project was to assess my CSS abilities in creating an attractive and contemporary landing page.",
       image:midnight,
       url:"https://midnight-tau.vercel.app/",
     },
     {
       id: 3,
-      title: "ecommerce",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      title: "E-commerce",
+      desc: "I built this e-commerce app with React, Next.js, and CSS. I used advanced React practices like folder structure, hooks, ref, and state management through the React Context API. I also used Next.js to retrieve data and make it my backend endpoint. For the database, I chose Sanity. Additionally, I integrated Stripe for payments, utilising its features for products, shipping rates, and the entire checkout process.",
       image:ecommerce,
       url:"https://sanity-ecommerce-two.vercel.app/",
     }
@@ -43,35 +43,35 @@ export const items = {
     {
       id: 1,
       title: "ElevateNow",
-      desc: "ElevateNow is a technology-driven coaching platform that helps individuals achieve their personal and professional growth by providing personalised guidance, resources and tools. The platform aims to empower users to reach their full potential and elevate their lives. Knowing this I came up with a logo mark that felt strong, unique and symbolises growth, and also using colour theory to bring out colours that felt cool, embracing and trustworthy.",
+      desc: "ElevateNow is a coaching platform that uses technology to help people achieve their personal and professional growth. It offers personalised guidance, resources, and tools to empower users to reach their full potential and elevate their lives. To reflect this, I designed a logo mark that conveys strength, uniqueness, and growth. Using color theory, I selected cool, embracing colors that promote trustworthiness. ",
       image:elevatenow,
       url:"https://abdulmuizmustapha.myportfolio.com/elevatenow",
     },
     {
       id: 2,
       title: "Rubber thrift store",
-      desc: "Rubber thrift store is a charity shop that sells recycled clothes, the store wanted a logo that stood out but had a warming, homely vibe to it, and also targeted towards women. Knowing this I came up with a logo that had something to do with recycling and also added a heart in the middle to symbolise love, using natural tones of colour that are also give a hearty feminine vibe. ",
+      desc: "The Rubber Thrift Store is a charitable shop that specializes in selling recycled clothing. The store was in need of a logo that would be noticeable yet exude a warm and welcoming feel, primarily targeted towards women. With this in mind, I designed a logo that incorporated recycling and a heart in the centre to represent love. The natural tones of the logo also provided a feminine and hearty vibe. ",
       image:rubber,
       url:"https://abdulmuizmustapha.myportfolio.com/rubber",
     },
     {
       id: 3,
       title: "video Flux",
-      desc: "Flux is a video app company, that seeks to attract young individuals to educate or socialise using short videos. Our logo is a word mark logo, using the word flux and making that the highlight of the logo, using the “x” in the logo to create an icon so it stands out, for cooler palette used bright  vibrant colours to show the energy that youngsters have.",
+      desc: "Flux is a company that aims to engage young people in education and socialisation through short videos. Our logo is a word mark featuring the word “flux” as the centrepiece. The “x” in the logo is used to create an icon that stands out. We opted for a cooler colour palette with bright, vibrant colours to reflect the energy and enthusiasm of our target audience.",
       image:flux,
       url:"https://abdulmuizmustapha.myportfolio.com/flux",
     },
     {
       id: 4,
       title: "Totem collective",
-      desc: "Totem collective is a creative agency, that helps client give brand identity and help give them presence in all their social platforms, Knowing this I got to work and while brainstorming I came up with the current logo which is an outline of an antelope, as antelopes are symbols of elegance and strength , I decided to go with dark muted but vibrant colours to give it that subtle pop.",
+      desc: "I worked with Totem Collective, a creative agency that assists clients in establishing their brand identity and increasing their social media presence. During the brainstorming process, I created their current logo which features an outline of an antelope. I chose this symbol as antelopes represent elegance and strength. To make the logo stand out, I used dark muted but vibrant colours to give it a subtle pop.",
       image:totem,
       url:"https://abdulmuizmustapha.myportfolio.com/totem-collective",
     },
     {
       id: 5,
       title: "Zen candles",
-      desc: "Zen Candles is a small candle business, they were looking a logo that would represent them as a candle business, and were also looking for something different but also had a zen vibe to it. Knowing this I came up with a logo that was unique and incorporating various zen elements to come up with a symbol that represents the company as a candle business, using colour theory to bring out colours that felt warm and homely.",
+      desc: "Zen Candles is a small business that specializes in candles. They were searching for a logo that would accurately represent their brand and convey a zen ambiance. With this in mind, I created a distinctive logo that incorporates a variety of zen elements. The symbol I came up with represents the company as a candle business and uses colour theory to evoke feelings of warmth and homeliness.",
       image:zen,
       url:"https://abdulmuizmustapha.myportfolio.com/zen-candles",
     },
@@ -80,14 +80,14 @@ export const items = {
     {
       id: 1,
       title: "What's On Ya Mind?",
-      desc: "This project was done using tools i learnt in a graphic design course, I was experementing on using the select and mask tool to mask out the photo subject and put it in an artistic background, also giving the photo subject a stroke to make it pop out of the very colorful and vibright background.",
+      desc: "I created this project using the skills I learned in a graphic design course. I experimented with the select and mask tool to remove the background of the photo and place the subject in an artistic background. Additionally, I added a stroke to the subject to make it stand out from the vibrant and colorful background.",
       image:graphic1,
       url:"https://abdulmuizmustapha.myportfolio.com/on-your-mind",
     },
     {
       id: 2,
       title: "Reailty Check.",
-      desc: "This hit home differently, as this speaks to me directly, moving into web development and graphic design was scary, and i put it off quite alot,as i was in uni studying aresopace at the time, but my creativity kept trying to come out causing alot of mild depression and no sense of purpose, seeing this quote made me realise you only got one chance in this life and if you dont live it how you want to it waould always come back to hunt you, so i decided to have a bit of fun with it using font paring and color theory to re-write this quote in my own creative way In the hopes that anyone that sees it migh help them in some way.",
+      desc: "The quote resonated deeply with me as I embarked on a new journey into web development and graphic design. Despite being scared, I realized that I only have one life to live and it's important to pursue what makes me happy. The quote inspired me to have fun with my creativity by experimenting with font pairing and color theory, hoping to inspire others who may be struggling with finding their purpose.",
       image:graphic2,
       url:"https://abdulmuizmustapha.myportfolio.com/reality",
     },
@@ -108,7 +108,7 @@ export const items = {
     {
       id: 5,
       title: "Demon Slayer",
-      desc: "Demon Slayer, Who hasn't heard pf demon slayer, from the captivating story to the insane animation, Demon slayer definately has a place in my heart, alot of stoic lessons learnt from it, I decided to take one of the characters Zenitsu Agatsuma, and found a way to wrtie out his breathing tecqnuie.",
+      desc: "Have you heard of Demon Slayer? It's a captivating story with insane animation that has definitely captured my heart. I've learned a lot of stoic lessons from it. I even decided to take one of the characters, Zenitsu Agatsuma, and write out his breathing technique.",
       image:graphic5,
       url:"https://abdulmuizmustapha.myportfolio.com/thunder-first-form",
     }

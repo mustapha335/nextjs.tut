@@ -19,26 +19,26 @@ const links = [
     title: 'Portfolio',
     url: '/portfolio',
   },
+  // {
+  //   id: 3,
+  //   title: 'Blog',
+  //   url: '/blog',
+  // },
   {
     id: 3,
-    title: 'Blog',
-    url: '/blog',
-  },
-  {
-    id: 4,
     title: 'About',
     url: '/about',
   },
   {
-    id: 5,
+    id: 4,
     title: 'Contact',
     url: '/contact',
   },
-  {
-    id: 6,
-    title: 'Dashboard',
-    url: '/dashboard',
-  },
+  // {
+  //   id: 5,
+  //   title: 'Dashboard',
+  //   url: '/dashboard',
+  // },
 ]
 
 const Navbar = () => {
@@ -47,13 +47,12 @@ const Navbar = () => {
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
         <Image
-          src="webpage logo.svg"
+          src="webpagelogo.svg"
           width={250}
           height={250}
           className={styles.icon}
-          alt="musty babs"
+          alt="abdulmuiz-logo"
         />
-        {/* <h1 className={Comfort.className}>Mustybabs</h1> */}
       </Link>
       <div className={styles.links}>
         {/* <DarkMode /> */}
@@ -62,11 +61,11 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
-        {session.status === 'authenticated' && (
+        {/* {session.status === 'authenticated' && (
           <button onClick={signOut} className={styles.logout}>
             <h3 className={styles.text}>logout</h3>
           </button>
-        )}
+        )} */}
       </div>
     </div>
   )
