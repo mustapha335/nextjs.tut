@@ -50,13 +50,13 @@ export const items = {
     {
       id: 2,
       title: "Rubber thrift store",
-      desc: "The Rubber Thrift Store is a charitable shop that specializes in selling recycled clothing. The store was in need of a logo that would be noticeable yet exude a warm and welcoming feel, primarily targeted towards women. With this in mind, I designed a logo that incorporated recycling and a heart in the centre to represent love. The natural tones of the logo also provided a feminine and hearty vibe. ",
+      desc: "The Rubber Thrift Store is a charitable shop that specializes in selling recycled clothing. The store was in need of a logo that would be noticeable yet exude a warm and welcoming feel, primarily targeted towards women. With this in mind, I designed a logo that incorporated recycling and a heart in the centre to represent love for recyled clothes. The natural tones of the logo also provided a feminine and hearty vibe. ",
       image:rubber,
       url:"https://abdulmuizmustapha.myportfolio.com/rubber",
     },
     {
       id: 3,
-      title: "video Flux",
+      title: "Flux",
       desc: "Flux is a company that aims to engage young people in education and socialisation through short videos. Our logo is a word mark featuring the word “flux” as the centrepiece. The “x” in the logo is used to create an icon that stands out. We opted for a cooler colour palette with bright, vibrant colours to reflect the energy and enthusiasm of our target audience.",
       image:flux,
       url:"https://abdulmuizmustapha.myportfolio.com/flux",
