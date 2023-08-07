@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div>@Abdulmuiz 2023. All rights reserved</div>
-      <div className={styles.socials}>
+      {/* <div className={styles.socials}>
         <Image
           src="/1.png"
           width={15}
@@ -34,7 +34,7 @@ const Footer = () => {
           className={styles.icon}
           alt="musty babs"
         />
-      </div>
+      </div> */}
     </div>
   )
 }
