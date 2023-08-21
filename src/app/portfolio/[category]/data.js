@@ -83,7 +83,7 @@ export const items = {
       title: "The Golden Hop Brewery & Resturant",
       desc: "The Golden Hop Brewery and Restaurant is a London pub that combines traditional and modern elements. Our logo, which is based on the cascade hop, symbolizes our dedication to creating outstanding beers and embracing innovation. It is featured on our promotions and signature brews, showcasing our efforts to honor the past while also embracing the present. ",
       image:tgh,
-      url:"https://abdulmuizmustapha.myportfolio.com/zen-candles",
+      url:"https://abdulmuizmustapha.myportfolio.com/the-golden-hop-brewery-resturant",
     },
   ],
   graphics: [
@@ -127,14 +127,14 @@ export const items = {
       title: "Dancing poster",
       desc: "In creating a poster showcasing a dancing subject, my goal was to convey a sense of motion and make a lasting impression. As I worked on the project, I came to realize the significance of paying attention to even the slightest movements and utilizing them to create a captivating and enthralling design.",
       image:dansingposter,
-      url:"https://abdulmuizmustapha.myportfolio.com/thunder-first-form",
+      url:"https://abdulmuizmustapha.myportfolio.com/dacing-poster",
     },
     {
       id: 7,
       title: "Shoe ad",
       desc: "For this shoe advertisement, my goal was to create a visually appealing design that would attract the viewer’s attention and lead to sales. Throughout the project, I studied eye direction and learned how to use hierarchy and shapes to guide the viewer’s gaze and encourage them to pause and appreciate the ad. Ultimately, I aimed to direct the viewer’s attention towards a call to action located at the bottom of the advertisement.",
       image:shoead,
-      url:"https://abdulmuizmustapha.myportfolio.com/thunder-first-form",
+      url:"https://abdulmuizmustapha.myportfolio.com/shoe-ad",
     },
   ],
 };
